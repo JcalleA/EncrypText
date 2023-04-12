@@ -1,7 +1,6 @@
 
 function encriptar() {
     document.getElementById('imagen1').style.display = "none";
-    document.getElementById('btncopiar').style.display = "initial";
     var texto = document.getElementById('entry').value;
     var texto1 = ""
     for (var i = 0; i < texto.length; i++) {
