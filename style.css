@@ -1,16 +1,15 @@
 .logo {
-    height: 30%;
-    margin: 10%;
+    max-height: 80px;
+    
     
 }
 h1 {
-    font-size: 100px !important;
     color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px 5px 5px rgb(63, 22, 177);
 }
 label{
-    font-size: 35px !important;
+    
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -24,15 +23,14 @@ label{
 }
 
 #entry {
-    position: relative;
-    margin-left: 80px;
-    height: 400px;
+    
+    height: 400px !important;
     text-transform: lowercase;
     background-color: rgb(95, 21, 212);
-    font-size: 45px !important;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px 5px 5px rgb(63, 22, 177);
+    font-size: 30px !important;
 
 
 }
@@ -45,6 +43,7 @@ label{
     margin: 20px;
 }
 #contenedor {
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,14 +75,19 @@ label{
 
 #secundario1 {
     position: absolute;
+    margin-top: 30px;
     text-align: center;
     width: 100%;
 
     
 }
 p{
-    font-size: 45px !important;
+    font-size: 30px !important;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 5px 5px 5px rgb(63, 22, 177);
+    padding-top: 5px;
+}
+span{
+    color: aliceblue;
 }
