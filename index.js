@@ -1,21 +1,20 @@
-
 function encriptar() {
     document.getElementById('imagen1').style.display = "none";
     var texto = document.getElementById('entry').value;
-    var texto1 = ""
+    var texto1 = ''
     for (var i = 0; i < texto.length; i++) {
         if (texto[i] == 'a')
-            texto1 += 'ai'
+            texto1 = texto1 + 'ai'
         else if (texto[i] == 'e')
-            texto1 += 'enter'
+            texto1 =texto1 + 'enter'
         else if (texto[i] == 'i')
-            texto += 'imes'
+            texto1 = texto1 + 'imes'
         else if (texto[i] == 'o')
-            texto1 += 'ober'
+            texto1 = texto1 + 'ober'
         else if (texto[i] == 'u')
-            texto1 += 'ufat'
+            texto1 = texto1 +'ufat'
         else
-            texto1 += texto[i]
+            texto1 = texto1 + texto[i]
 
     }
     document.getElementById('parrafo').textContent = texto1
@@ -23,6 +22,7 @@ function encriptar() {
 }
 
 function updateClipboard() {
+    document.getElementById('entry').value = '';
     var textCopy = document.getElementById('parrafo').innerText;
     navigator.clipboard.writeText(textCopy).then(() => {
         alert('copiado')

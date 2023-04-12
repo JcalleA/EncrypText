@@ -23,7 +23,7 @@ label{
 }
 
 #entry {
-    
+
     height: 300px !important;
     text-transform: lowercase;
     background-color: rgb(95, 21, 212);
@@ -63,9 +63,7 @@ label{
     
 }
 #parrafo{
-    text-align: center;
-    height: auto;
-    text-transform: lowercase;
+    
 
 }
 #principal1 {
@@ -83,6 +81,9 @@ label{
 }
 p{
     
+    text-align: center;
+    height: auto;
+    text-transform: lowercase;
     font-size: 30px !important;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
