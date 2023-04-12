@@ -1,14 +1,38 @@
 .logo {
-    height: 50px;
+    height: 30%;
+    margin: 10%;
+    
 }
-
+h1 {
+    font-size: 100px !important;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 5px rgb(63, 22, 177);
+}
+label{
+    font-size: 35px !important;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div0 {
+    background-color:gray;
+    display: flex;
+}
 .div1 {
     text-align: center;
+    background-color: gray;
 }
 
 #entry {
-    height: auto;
+    position: relative;
+    margin-left: 80px;
+    height: 400px;
     text-transform: lowercase;
+    background-color: rgb(95, 21, 212);
+    font-size: 45px !important;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 5px rgb(63, 22, 177);
 
 
 }
@@ -17,12 +41,15 @@
     text-align: center;
     padding: 20px;
 }
-
+.div3{
+    margin: 20px;
+}
 #contenedor {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
+    background-color: gray;
 }
 
 #principal {
@@ -41,4 +68,22 @@
     height: auto;
     text-transform: lowercase;
 
+}
+#principal1 {
+    text-align: center;
+    width: 20%;
+}
+
+#secundario1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+    
+}
+p{
+    font-size: 45px !important;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 5px rgb(63, 22, 177);
 }
