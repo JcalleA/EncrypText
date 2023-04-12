@@ -1,0 +1,43 @@
+.logo {
+    height: 50px;
+}
+
+.div1 {
+    text-align: center;
+}
+
+#entry {
+    height: auto;
+    text-transform: lowercase;
+
+
+}
+
+.div2 {
+    text-align: center;
+    padding: 20px;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#principal {
+    text-align: center;
+    width: 50%;
+}
+
+#secundario {
+    text-align: center;
+    width: 50%;
+
+    
+}
+#parrafo{
+    text-align: center;
+    height: auto;
+    
+}
