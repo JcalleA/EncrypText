@@ -39,5 +39,6 @@
 #parrafo{
     text-align: center;
     height: auto;
-    
+    text-transform: lowercase;
+
 }
