@@ -9,4 +9,5 @@ function encriptar(){
     var texto5=texto4.replace('u','ufat')
     console.log(texto5);
     document.getElementById('parrafo').textContent=texto5
+    
 }
