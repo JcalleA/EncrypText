@@ -24,7 +24,7 @@ label{
 
 #entry {
     
-    height: 400px !important;
+    height: 300px !important;
     text-transform: lowercase;
     background-color: rgb(95, 21, 212);
     color: black;
@@ -82,6 +82,7 @@ label{
     
 }
 p{
+    
     font-size: 30px !important;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -90,4 +91,7 @@ p{
 }
 span{
     color: aliceblue;
+}
+a{
+    margin: 10px;
 }
