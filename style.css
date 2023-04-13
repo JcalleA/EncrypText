@@ -9,7 +9,7 @@ h1 {
     text-shadow: 5px 5px 5px rgb(63, 22, 177);
 }
 label{
-    
+    margin: 0 auto;
     color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -23,7 +23,7 @@ label{
 }
 
 #entry {
-
+    border-radius: 5%;
     height: 300px !important;
     text-transform: lowercase;
     background-color: rgb(95, 21, 212);
@@ -69,6 +69,9 @@ label{
     min-width: 350px !important;
 
     
+}
+#imagen1{
+    border-radius: 5%;
 }
 #parrafo{
     
