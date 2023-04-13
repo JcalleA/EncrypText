@@ -100,24 +100,8 @@ label{
 
     
 }
-<<<<<<< HEAD
-
-=======
-p{
-    text-overflow: "-";
-    max-width: 300px;
-    min-width: 300px !important;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px !important;
-    color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 5px 5px 5px rgb(63, 22, 177);
-    padding-top: 5px;
-}
->>>>>>> 927b8223d9d86634005c07f1f8a4c254a41f79f4
 span{
-    color: aliceblue;
+    color: white ;
 }
 a{
     margin: 10px;

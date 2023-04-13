@@ -25,10 +25,10 @@ function updateClipboard() {
     document.getElementById('entry').value = '';
     var textCopy = document.getElementById('parrafo').innerText;
     navigator.clipboard.writeText(textCopy).then(() => {
-        alert('copiado')
+        alert('Texto Copiado Con Exito')
         /* clipboard successfully set */
     }, () => {
-        alert('error al copiar')
+        alert('Error Al Copiar')
         /* clipboard write failed */
     });
 }
