@@ -1,6 +1,6 @@
 .logo {
     max-height: 80px;
-    
+    min-width: 20px;
     
 }
 h1 {
@@ -43,7 +43,10 @@ label{
     margin: 20px;
 }
 #contenedor {
-    
+    margin: 0 auto;
+    text-align: center;
+    max-width: 750px;
+    min-width: 380px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,13 +55,18 @@ label{
 }
 
 #principal {
+    margin: 0 auto;
+    float: left;
     text-align: center;
-    width: 50%;
+    max-width: 450px;
 }
 
 #secundario {
+    margin: 0 auto;
+    float: left;
     text-align: center;
-    width: 50%;
+    max-width: 450px;
+    min-width: 350px !important;
 
     
 }
@@ -72,17 +80,18 @@ label{
 }
 
 #secundario1 {
-    position: absolute;
-    margin-top: 30px;
+    
+    width: 80%;
+    margin-top: 20px;
     text-align: center;
-    width: 100%;
+    
 
     
 }
 p{
-    
+    max-width: 300px;
+    min-width: 300px !important;
     text-align: center;
-    height: auto;
     text-transform: lowercase;
     font-size: 30px !important;
     color: black;
@@ -95,4 +104,16 @@ span{
 }
 a{
     margin: 10px;
+}
+#footercont{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 750px;
+    min-width: 380px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    margin: 0 auto;
 }

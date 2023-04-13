@@ -9,62 +9,60 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>Document</title>
 </head>
-
 <body>
-    <div id="contenedor">
-        <div id="principal1">
-            <img src="encrypt.png" class="logo">
+    <div>
+        <div id="contenedor">
+            <div id="principal1">
+                <img src="encrypt.png" class="logo">
+            </div>
+            <div id="secundario1">
+                <h1>
+                    Encriptador De Texto
+                </h1>
+            </div>
         </div>
-        <div id="secundario1">
-            <h1>
-                Encriptador De Texto
-            </h1>
+        <div id="contenedor">
+            <div id="principal">
+                <label>Escribe aqui 👇</label>
+                <div class="div3">
+                    <textarea id="entry" placeholder="Escribe texto a encriptar"></textarea>
+                </div>
+                <div class="div2">
+                    <button onclick="encriptar()" type="button" class="btn btn-primary btn-lg">
+                        Encriptar
+                    </button>
+                    <button onclick="desencriptar()" type="button" class="btn btn-secondary btn-lg btn-lg">
+                        Desencriptar
+                    </button>
+                </div>
+            </div>
+            <div id="secundario">
+                <label style="padding-top: 20px;">Resultado 👇</label>
+                <div id="imagen1">
+                    <img src="1.png" alt="">
+                </div>
+                <div class="div3">
+                    <p id="parrafo"></p>
+                </div>
+                <button onclick="updateClipboard()" type="button" class="btn btn-primary btn-lg">Copiar</button>
+            </div>
+        </div>
+        <div id="footercont">
+            <footer>
+                <div>
+                    <span>© 2023 Company, Inc Jhonatan Calle</span>
+                    <br>
+                    <span># Oracle Next Education</span>
+                    <br>
+                    <a class="fa fa-github" style="font-size:48px;color:rgb(255, 255, 255)"
+                        href="https://github.com/JcalleA"></a>
+                    <a class="fa fa-linkedin-square" style="font-size:48px;color:rgb(255, 255, 255)"
+                        href="https://www.linkedin.com/in/jhonatan-calle/"></a>
+            </footer>
         </div>
     </div>
-    <div id="contenedor">
-        <div id="principal">
-            <label>Escribe aqui 👇</label>
-            <div class="div3">
-                
-                <textarea id="entry"  placeholder="Escribe texto a encriptar" ></textarea>
-
-            </div>
-            <div class="div2">
-                <button onclick="encriptar()" type="button" class="btn btn-primary btn-lg">
-                    Encriptar
-                </button>
-                <button onclick="desencriptar()" type="button" class="btn btn-secondary btn-lg btn-lg">
-                    Desencriptar
-                </button>
-            </div>
-        </div>
-        <div id="secundario">
-            <label style="padding-top: 20px;">Resultado 👇</label>
-            <div id="imagen1">
-                <img src="1.png" alt="">
-            </div>
-            <div class="div3">
-                <p id="parrafo"></p>
-            </div>
-            
-            <button onclick="updateClipboard()" type="button" class="btn btn-primary btn-lg">Copiar</button>
-        </div>
-    </div>
-    <div style="background-color: black;text-align: center;">
-        <footer >
-            <div>
-                <span >© 2023 Company, Inc Jhonatan Calle</span>
-                <br>
-                <span ># Oracle Next Education</span>
-                <br>
-                <a class="fa fa-github" style="font-size:48px;color:rgb(255, 255, 255)" href="https://github.com/JcalleA"></a>
-                <a class="fa fa-linkedin-square" style="font-size:48px;color:rgb(255, 255, 255)" href="https://www.linkedin.com/in/jhonatan-calle/"></a>
-        </footer>
-    </div>
-
 </body>
 
 <script src="index.js">
