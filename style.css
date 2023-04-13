@@ -92,7 +92,7 @@ label{
     
 }
 p{
-    overflow: scroll;
+    text-overflow: "-";
     max-width: 300px;
     min-width: 300px !important;
     text-align: center;
