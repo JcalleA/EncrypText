@@ -40,6 +40,7 @@ label{
     padding: 20px;
 }
 .div3{
+    text-overflow: clip;
     margin: 20px;
 }
 #contenedor {
@@ -73,9 +74,17 @@ label{
 #imagen1{
     border-radius: 5%;
 }
-#parrafo{
-    
-
+#parrafo {
+    word-wrap: break-word;
+    max-width: 300px;
+    min-width: 300px !important;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 30px !important;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 5px rgb(63, 22, 177);
+    padding-top: 5px;
 }
 #principal1 {
     text-align: center;
@@ -91,18 +100,7 @@ label{
 
     
 }
-p{
-    overflow: scroll;
-    max-width: 300px;
-    min-width: 300px !important;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px !important;
-    color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 5px 5px 5px rgb(63, 22, 177);
-    padding-top: 5px;
-}
+
 span{
     color: aliceblue;
 }
