@@ -54,11 +54,10 @@ label {
     text-overflow: clip;
     margin: 20px;
     border-width: 5px !important;
-    border: solid;
-    border-color: black;
+    border: solid !important;
+    border-color: black !important;
     border-radius: 8%;
-    animation-name: slidein2;
-    animation-duration:5s;
+    
 }
 #bocopy{
     display: none;
@@ -131,20 +130,6 @@ label {
     }
     100% {
         color: black;
-    }
-}
-@keyframes slidein2 {
-    0% {
-   border-color: rgb(1, 241, 33);
-    }
-
-    
-    50% {
-        border-color: greenyellow;
-    }
-    
-    100% {
-        border-color: black;
     }
 }
 
