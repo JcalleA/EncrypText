@@ -2,7 +2,6 @@ document.getElementById('entry').addEventListener('input',actualizar);
 
 function actualizar() {
     document.getElementById('imagen1').style.display = "none";
-    document.getElementById('div4').style.display = "block";
     document.getElementById('bocopy').style.display = "block";
     var texto = document.getElementById('entry').value;
     var texto1 = ''

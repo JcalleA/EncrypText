@@ -50,7 +50,6 @@ label {
     margin: 20px;
 }
 #div4 {
-    display: none;
     text-overflow: clip;
     margin: 20px;
     border-width: 5px !important;
