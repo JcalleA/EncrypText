@@ -28,7 +28,7 @@ label {
 
 #entry {
     border-radius: 5%;
-    height: 300px !important;
+    height: 150px !important;
     text-transform: lowercase;
     background-color: rgb(95, 21, 212);
     color: black;
@@ -54,8 +54,8 @@ label {
     margin: 20px;
     border-width: 5px !important;
     border-color: black !important;
-    border-radius: 15%;
-    min-height: 300px;
+    border-radius: 3%;
+    min-height: 150px;
     
 }
 #bocopy{
