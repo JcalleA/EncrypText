@@ -53,6 +53,12 @@ label {
     display: none;
     text-overflow: clip;
     margin: 20px;
+    border-width: 5px !important;
+    border: solid;
+    border-color: black;
+    border-radius: 8%;
+    animation-name: slidein2;
+    animation-duration:5s;
 }
 #bocopy{
     display: none;
@@ -83,6 +89,7 @@ label {
     text-align: center;
     max-width: 450px;
     min-width: 350px !important;
+    
 
 
 }
@@ -106,24 +113,41 @@ label {
     animation-name: slidein;
     
 }
-@font-face {
-    font-family: chino;
-    src: url(chino.ttf);
-}
+
 
 @keyframes slidein {
-    from {
-        font-size: 10px ;
+    0% {
         color: rgb(1, 241, 33);
-        font-family: 'chino';
     }
 
-    to {
+    25% {
+        color: seagreen;
+    }
+    50% {
+        color: greenyellow;
+    }
+    75% {
+        color: seagreen;
+    }
+    100% {
         color: black;
-        font-size: 30px ;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
+@keyframes slidein2 {
+    0% {
+   border-color: rgb(1, 241, 33);
+    }
+
+    
+    50% {
+        border-color: greenyellow;
+    }
+    
+    100% {
+        border-color: black;
+    }
+}
+
 
 #principal1 {
     text-align: center;
