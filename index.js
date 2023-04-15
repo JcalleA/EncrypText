@@ -1,8 +1,13 @@
-function encriptar() {
+document.getElementById('entry').addEventListener('input',actualizar);
+
+function actualizar() {
     document.getElementById('imagen1').style.display = "none";
+    document.getElementById('div4').style.display = "block";
+    document.getElementById('bocopy').style.display = "block";
     var texto = document.getElementById('entry').value;
     var texto1 = ''
     for (var i = 0; i < texto.length; i++) {
+        document.getElementById('parrafo').style.animationIterationCount=texto.length
         if (texto[i] == 'a')
             texto1 = texto1 + 'ai'
         else if (texto[i] == 'e')
@@ -17,8 +22,10 @@ function encriptar() {
             texto1 = texto1 + texto[i]
 
     }
-    document.getElementById('parrafo').textContent = texto1
-
+    
+    document.getElementById('parrafo').textContent = texto1;
+    
+    
 }
 
 function updateClipboard() {
