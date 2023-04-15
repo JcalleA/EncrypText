@@ -53,9 +53,9 @@ label {
     text-overflow: clip;
     margin: 20px;
     border-width: 5px !important;
-    border: solid !important;
     border-color: black !important;
-    border-radius: 8%;
+    border-radius: 15%;
+    min-height: 300px;
     
 }
 #bocopy{

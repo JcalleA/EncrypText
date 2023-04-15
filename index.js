@@ -3,6 +3,7 @@ document.getElementById('entry').addEventListener('input',actualizar);
 function actualizar() {
     document.getElementById('imagen1').style.display = "none";
     document.getElementById('bocopy').style.display = "block";
+    document.getElementById('div4').style.border = "solid";
     var texto = document.getElementById('entry').value;
     var texto1 = ''
     for (var i = 0; i < texto.length; i++) {
